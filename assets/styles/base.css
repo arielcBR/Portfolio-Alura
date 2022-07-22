@@ -1,0 +1,20 @@
+:root{
+    --cinza-fundo: #F5F5F5;
+    --cinza-texto: #464646;
+    --azul-fundo: #EAF2FD;
+    --azul-botao: #2A7AE4;
+    --raleway: "Raleway", sans-serif;
+}
+
+body {
+    background-color: var(--cinza-fundo);
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cinza-texto);
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
