@@ -1,14 +1,8 @@
 .sobre{
     background-color: var(--azul-fundo);
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 4rem;
     height: auto;
-}
-
-.sobre__titulo{
-    font-weight: 700;
-    font-size: 2rem;
-
 }
 
 .sobre__texto{

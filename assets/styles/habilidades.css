@@ -1,0 +1,39 @@
+.habilidades{
+    background-color: var(--cinza-fundo);
+    margin-bottom: 3.5rem;
+}
+
+.habilidade{
+    align-items: flex-start;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 200px;
+}
+
+.habilidade:nth-last-child(1){
+    margin-right: 0;
+}
+
+.habilidade__imagem{
+    margin-bottom: 0.5rem;
+}
+
+.habilidade__legenda{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.habilidades__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.habilidades__titulo{
+    text-align: center;
+}
