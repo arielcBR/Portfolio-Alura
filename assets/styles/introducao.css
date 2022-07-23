@@ -1,5 +1,7 @@
 .introducao__principal{
     display: flex;
+    height: 39vh;
+    padding-bottom: 2rem;
 }
 
 .introducao{
@@ -27,7 +29,6 @@
     display: flex;
     align-items: center;
     margin-right: 2rem;
-
 }
 
 .introducao__item:nth-last-child(1){

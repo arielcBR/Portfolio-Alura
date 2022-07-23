@@ -3,6 +3,7 @@
     justify-content: space-between;
     margin-top: 2.1562rem;
     margin-bottom: 7.9375rem;
+    height: 35px;
     width: 100%;
 }
 
@@ -36,6 +37,10 @@
 
 .cabecalho__item{
     margin-right: 2rem;
+}
+
+.cabecalho__item:hover{
+    transform: scale(1.1);  
 }
 
 .cabecalho__item:nth-child(6){

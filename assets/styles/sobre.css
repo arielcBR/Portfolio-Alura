@@ -1,0 +1,29 @@
+.sobre{
+    background-color: var(--azul-fundo);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: auto;
+}
+
+.sobre__titulo{
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.sobre__texto{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    text-align: justify;
+    width: 52%;
+}
+
+.sobre__imagem{
+    background-image: url("/assets/images/sign.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 150px;
+    height: 50px;
+}
