@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2.1562rem;
-    margin-bottom: 4.125rem;
+    margin-bottom: 7.9375rem;
     width: 100%;
 }
 
@@ -46,4 +46,9 @@
     color: var(--cinza-texto);
     text-decoration: none;
     text-transform: capitalize;
+}
+
+.cabecalho__link:hover{
+    color: var(--preto-hover);
+    text-decoration: underline;
 }
