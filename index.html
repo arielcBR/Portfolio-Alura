@@ -28,11 +28,11 @@
                 <li class="cabecalho__item">
                     <a class="cabecalho__link" href="#">Sobre mim</a></li>
                 <li class="cabecalho__item">
-                    <a class="cabecalho__link" href="#">Skills</a></li>
+                    <a class="cabecalho__link" href="#habilidades">Skills</a></li>
                 <li class="cabecalho__item">
-                    <a class="cabecalho__link" href="#">Hobbies</a></li>
+                    <a class="cabecalho__link" href="#habilidades">Hobbies</a></li>
                 <li class="cabecalho__item">
-                    <a class="cabecalho__link" href="#">Formação</a></li>
+                    <a class="cabecalho__link" href="#formacao">Formação</a></li>
                 <li class="cabecalho__item">
                     <a class="cabecalho__link" href="#">Projetos</a></li>
                 <li class="cabecalho__item">
@@ -77,7 +77,7 @@
         </p>
         <span class="sobre__imagem"></span>
     </section>
-    <section class="container habilidades">
+    <section id="habilidades" class="container habilidades">
         <h2 class="habilidades__titulo titulo">Skills</h2>
         <div class="habilidades__lista">
             <div class="habilidade">
@@ -159,38 +159,36 @@
             </div>
         </div>
     </section>
-    <section class="container formacoes">
-        <h2 class="formacao__titulo titulo">Formação acadêmica</h2>
+    <section id="formacao" class="container formacoes">
+        <h2 class="titulo">Formação acadêmica</h2>
         <div class="formacoes__lista">
             <div class="formacao">
-                <div>
-                    <figure class="formacao__imagem">
-                        <img src="/assets/images/ufpr.png" alt="Logo UFPR">
+                <div class="formacao__imagem">
+                    <figure>
+                        <img class="formacao__imagem__instituto" src="/assets/images/ufpr.png" alt="Logo UFPR">
                     </figure>
                 </div>
-                <h3>Análise de dados</h3>
-                <p>2018 - UFPR</p>
+                <h3 class="formacao__curso">Análise de dados</h3>
+                <p class="formacao__status">2018 - UFPR</p>
             </div>
             <div class="formacao">
-                <div>
-                    <figure class="formacao__imagem">
-                        <img src="/assets/images/alura.png" alt="Logo Alura">
+                <div class="formacao__imagem">
+                    <figure>
+                        <img class="formacao__imagem__instituto" src="/assets/images/alura.png" alt="Logo Alura">
                     </figure>
                 </div>
-                <h3>Formação UX Design</h3>
-                <p>2019 - Alura</p>
+                <h3 class="formacao__curso">Formação UX Design</h3>
+                <p class="formacao__status">2019 - Alura</p>
             </div>
             <div class="formacao">
-                <div>
-                    <figure class="formacao__imagem">
-                        <img src="/assets/images/ufrj.png" alt="Logo UFRJ">
+                <div class="formacao__imagem">
+                    <figure>
+                        <img class="formacao__imagem__instituto" src="/assets/images/ufpr.png" alt="Logo UFPR">
                     </figure>
                 </div>
-                <h3>Pós-graduação design</h3>
-                <p>Em andamento - UFRJ</p>
+                <h3 class="formacao__curso">Pós-graduação design</h3>
+                <p class="formacao__status">Em andamento - UFRJ</p>
             </div>
-            
-
         </div>
     </section>
 
