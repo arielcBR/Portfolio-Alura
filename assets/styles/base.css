@@ -39,12 +39,14 @@ body {
     font-size: 2rem;
     font-size: normal;
     font-weight: 700;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:960px) {
     .titulo{
         padding: 1rem;
     }
@@ -53,5 +55,16 @@ body {
         height: 40px;
         line-height: 40px;
         width: 110px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .titulo{
+        padding-top: 0.5rem;
     }
 }

@@ -23,6 +23,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     list-style: none;
+    margin: 0 auto;
 }
 
 .introducao__item{
@@ -66,17 +67,14 @@
     background-image: url("/assets/images/ariel-campos.png");
     background-repeat: no-repeat;
     background-size: cover;
-    left: 30px;
-    position: relative;
-    top: -60px;
-    width: 300px;
-    height: 300px;
+    width: 220px;
+    height: 220px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:960px) {
     .introducao__principal{
-        height: calc(100vh - 10vh - 55vh);
-        padding-bottom: 0;
+        height: auto;
+        padding-bottom: 1rem;
     }
     
     .introducao__titulo{
@@ -86,11 +84,40 @@
     .introducao__descritivo{
         font-size: 1rem;
     }
-
     .introducao__fotoPerfil{
         height: 140px;
         left: 0;
+        position: relative;
         top: -20px;
         width: 140px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .introducao__principal{
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+    }
+
+    .introducao{
+        order: 1;
+        width: 100%;
+    }
+
+    .introducao__fotoPerfil{
+        order: -1;
+    }
+    
+    .introducao__descritivo{
+        font-size: 0.875rem;
+    }
+
+    .introducao__link{
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+    
+    .introducao__item{
+        margin-right: 0.375rem;
     }
 }

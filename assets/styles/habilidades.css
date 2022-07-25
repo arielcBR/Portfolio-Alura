@@ -39,7 +39,7 @@
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:960px){
     .habilidades__lista{
         flex-wrap: wrap;
     }
@@ -52,6 +52,12 @@
 
     .habilidade{
         width: calc((100% - 2rem) / 3);
+    }
+}
+
+@media screen and (max-width:425px){
+    .habilidade{
+        width: calc((100% - 2rem) / 2);
     }
 }
 

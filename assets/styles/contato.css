@@ -68,8 +68,14 @@
     width: 130px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:960px){
     .formulario__botao{
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .formulario {
+        width: 100%;
     }
 }
