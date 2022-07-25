@@ -1,8 +1,8 @@
 .sobre{
     background-color: var(--azul-fundo);
     padding-top: 2rem;
-    padding-bottom: 4rem;
-    height: 52vh;
+    padding-bottom: 2rem;
+    height: auto;
 }
 
 .sobre__texto{
@@ -13,12 +13,9 @@
     width: 75%;
 }
 
-.sobre__imagem{
-    background-image: url("/assets/images/sign.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: block;
-    height: 50px;
-    margin-top: 4.5rem;
-    width: 150px;
+@media screen and (max-width:768px) {
+    .sobre{
+        padding-top: 0;
+    }
+
 }

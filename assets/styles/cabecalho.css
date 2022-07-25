@@ -30,9 +30,9 @@
 }
 
 .cabecalho__lista{
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     list-style: none;
 }
 
@@ -58,3 +58,16 @@
     color: var(--preto-hover);
     text-decoration: underline;
 }
+
+
+@media screen and (max-width:768px){
+    .cabecalho{
+        height: 10vh;
+        padding-bottom: 3.5rem;
+    }
+
+    .hide{
+        display: none;
+    }
+}
+

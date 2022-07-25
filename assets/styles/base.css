@@ -43,3 +43,15 @@ body {
     padding-bottom: 2rem;
     text-align: center;
 }
+
+@media screen and (max-width:768px) {
+    .titulo{
+        padding: 1rem;
+    }
+
+    .btn{
+        height: 40px;
+        line-height: 40px;
+        width: 110px;
+    }
+}
