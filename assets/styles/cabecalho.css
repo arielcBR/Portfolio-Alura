@@ -59,6 +59,11 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width:1024px){
+    .cabecalho__item{
+        margin-right: 0.5rem;
+    }
+}
 
 @media screen and (max-width:960px){
     .cabecalho{

@@ -93,6 +93,14 @@
     }
 }
 
+@media screen and (max-width:1024px){
+    .introducao__fotoPerfil{
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
 @media screen and (max-width:425px) {
     .introducao__principal{
         flex-wrap: wrap;

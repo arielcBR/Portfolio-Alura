@@ -46,6 +46,22 @@
     margin-top: 0;
 }
 
+@media screen and (max-width:1024px){
+    .formacoes{
+        padding-bottom: 3rem;
+    }
+
+    .formacao__imagem__instituto{
+        height: 98px;
+        width: 142px;
+     }
+
+     .formacao__curso{
+        font-size: 1.15rem;
+    } 
+
+}
+
 @media screen and (max-width:960px){ 
     .formacoes{
         padding-bottom: 2rem;
