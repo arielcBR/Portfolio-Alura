@@ -1,6 +1,5 @@
 .formacoes{
     background-color: var(--azul-fundo);
-    height: 50vh;
     padding-bottom: 5.125rem;
 }
 
@@ -11,7 +10,7 @@
 }
 
 .formacao{
-    height: 331px;
+    height: 45%;
     width: calc((100% - 2rem) / 3);
 }
 
@@ -25,7 +24,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 240px;
+    height: 210px;
     margin-bottom: 0.5rem;
     width: 100%;
 }

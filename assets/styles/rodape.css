@@ -1,0 +1,10 @@
+.rodape{
+    height: 10vh;
+    padding: 1rem 0;
+}
+
+.rodape__texto{
+    display: block;
+    margin: 0;
+    text-align: center;
+}
