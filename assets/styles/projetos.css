@@ -1,0 +1,66 @@
+.projetos{
+    height: 100vh;
+}
+
+.projeto{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    justify-content: space-around;
+    margin: 0 auto 5vh auto;
+    width: 100%;
+}
+
+.projeto:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.projeto__imagem-decodificador{
+    background-image: url("/assets/images/alura-decodificador.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin: 0 2rem;
+    width: 55%;
+}
+
+.projeto__imagem-forca{
+    background-image: url("/assets/images/alura-forca.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin: 0 2rem;
+    width: 55%;
+}
+
+.projeto__titulo{
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.projeto__descricao{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.projeto__corpo{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 45%;
+}
+
+.projeto__botao-repositorio{
+    background-color: var(--cinza-fundo);
+    border: 1px solid var(--azul-botao);
+    color: var(--azul-botao);
+}
+
+.projeto__botao-page{
+    background-color: var(--azul-botao);
+    border: none;
+    color: white;
+}
