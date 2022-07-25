@@ -26,7 +26,7 @@ body {
     width: 125px;
 }
 
-.btn:hover{
+.btn:hover, .formulario__botao:hover{
     transform: scale(1.1);
 }
 
