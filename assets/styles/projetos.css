@@ -18,7 +18,7 @@
 }
 
 .projeto__imagem-decodificador{
-    background: url("../assets/images/alura-decodificador.JPG");
+    background: url("../images/alura-decodificador.JPG");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -28,7 +28,7 @@
 }
 
 .projeto__imagem-forca{
-    background: url("../assets/images/alura-forca.JPG");
+    background: url("../images/alura-forca.JPG");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;

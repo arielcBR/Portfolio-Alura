@@ -56,7 +56,7 @@
 
 .introducao__seta{
     display: inline-block;
-    background: url("../assets/images/arrow.png");
+    background: url("../images/arrow.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 1.4142rem;
@@ -64,7 +64,7 @@
 }
 
 .introducao__fotoPerfil{
-    background: url("../assets/images/ariel-campos.png");
+    background: url("../images/ariel-campos.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 220px;
