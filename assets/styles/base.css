@@ -46,11 +46,6 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width:2440px) {
-    .container{
-        max-width: 1440px;
-    }
-}
 
 @media screen and (max-width:1024px){
     .btn{

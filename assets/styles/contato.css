@@ -68,16 +68,6 @@
     width: 130px;
 }
 
-@media screen and (max-width:2520px){
-    .formulario {
-        width: 50%;
-    }
-
-    .formulario__input {
-        height: 75px;
-    }
-}
-
 @media screen and (max-width:1440px){
     .formulario {
         width: 50%;
